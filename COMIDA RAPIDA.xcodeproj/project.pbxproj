@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAAB5FC32975EC2400D58B0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB5FC22975EC2400D58B0A /* AppDelegate.swift */; };
+		AAAB5FC52975EC2400D58B0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB5FC42975EC2400D58B0A /* SceneDelegate.swift */; };
+		AAAB5FC72975EC2400D58B0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB5FC62975EC2400D58B0A /* ViewController.swift */; };
+		AAAB5FCA2975EC2400D58B0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAAB5FC82975EC2400D58B0A /* Main.storyboard */; };
+		AAAB5FCC2975EC2700D58B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAB5FCB2975EC2700D58B0A /* Assets.xcassets */; };
+		AAAB5FCF2975EC2700D58B0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAAB5FCD2975EC2700D58B0A /* LaunchScreen.storyboard */; };
+		AAAB5FDA2975EC2800D58B0A /* COMIDA_RAPIDATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB5FD92975EC2800D58B0A /* COMIDA_RAPIDATests.swift */; };
+		AAAB5FE42975EC2800D58B0A /* COMIDA_RAPIDAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB5FE32975EC2800D58B0A /* COMIDA_RAPIDAUITests.swift */; };
+		AAAB5FE62975EC2800D58B0A /* COMIDA_RAPIDAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB5FE52975EC2800D58B0A /* COMIDA_RAPIDAUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAAB5FD62975EC2800D58B0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAAB5FB72975EC2400D58B0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAAB5FBE2975EC2400D58B0A;
+			remoteInfo = "COMIDA RAPIDA";
+		};
+		AAAB5FE02975EC2800D58B0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAAB5FB72975EC2400D58B0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAAB5FBE2975EC2400D58B0A;
+			remoteInfo = "COMIDA RAPIDA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAAB5FBF2975EC2400D58B0A /* COMIDA RAPIDA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COMIDA RAPIDA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAAB5FC22975EC2400D58B0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAAB5FC42975EC2400D58B0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AAAB5FC62975EC2400D58B0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAAB5FC92975EC2400D58B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAAB5FCB2975EC2700D58B0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAAB5FCE2975EC2700D58B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAAB5FD02975EC2700D58B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAAB5FD52975EC2800D58B0A /* COMIDA RAPIDATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COMIDA RAPIDATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAAB5FD92975EC2800D58B0A /* COMIDA_RAPIDATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COMIDA_RAPIDATests.swift; sourceTree = "<group>"; };
+		AAAB5FDF2975EC2800D58B0A /* COMIDA RAPIDAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COMIDA RAPIDAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAAB5FE32975EC2800D58B0A /* COMIDA_RAPIDAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COMIDA_RAPIDAUITests.swift; sourceTree = "<group>"; };
+		AAAB5FE52975EC2800D58B0A /* COMIDA_RAPIDAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COMIDA_RAPIDAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAAB5FBC2975EC2400D58B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAAB5FD22975EC2800D58B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAAB5FDC2975EC2800D58B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAAB5FB62975EC2400D58B0A = {
+			isa = PBXGroup;
+			children = (
+				AAAB5FC12975EC2400D58B0A /* COMIDA RAPIDA */,
+				AAAB5FD82975EC2800D58B0A /* COMIDA RAPIDATests */,
+				AAAB5FE22975EC2800D58B0A /* COMIDA RAPIDAUITests */,
+				AAAB5FC02975EC2400D58B0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAAB5FC02975EC2400D58B0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAAB5FBF2975EC2400D58B0A /* COMIDA RAPIDA.app */,
+				AAAB5FD52975EC2800D58B0A /* COMIDA RAPIDATests.xctest */,
+				AAAB5FDF2975EC2800D58B0A /* COMIDA RAPIDAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAAB5FC12975EC2400D58B0A /* COMIDA RAPIDA */ = {
+			isa = PBXGroup;
+			children = (
+				AAAB5FC22975EC2400D58B0A /* AppDelegate.swift */,
+				AAAB5FC42975EC2400D58B0A /* SceneDelegate.swift */,
+				AAAB5FC62975EC2400D58B0A /* ViewController.swift */,
+				AAAB5FC82975EC2400D58B0A /* Main.storyboard */,
+				AAAB5FCB2975EC2700D58B0A /* Assets.xcassets */,
+				AAAB5FCD2975EC2700D58B0A /* LaunchScreen.storyboard */,
+				AAAB5FD02975EC2700D58B0A /* Info.plist */,
+			);
+			path = "COMIDA RAPIDA";
+			sourceTree = "<group>";
+		};
+		AAAB5FD82975EC2800D58B0A /* COMIDA RAPIDATests */ = {
+			isa = PBXGroup;
+			children = (
+				AAAB5FD92975EC2800D58B0A /* COMIDA_RAPIDATests.swift */,
+			);
+			path = "COMIDA RAPIDATests";
+			sourceTree = "<group>";
+		};
+		AAAB5FE22975EC2800D58B0A /* COMIDA RAPIDAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAAB5FE32975EC2800D58B0A /* COMIDA_RAPIDAUITests.swift */,
+				AAAB5FE52975EC2800D58B0A /* COMIDA_RAPIDAUITestsLaunchTests.swift */,
+			);
+			path = "COMIDA RAPIDAUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAAB5FBE2975EC2400D58B0A /* COMIDA RAPIDA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAAB5FE92975EC2800D58B0A /* Build configuration list for PBXNativeTarget "COMIDA RAPIDA" */;
+			buildPhases = (
+				AAAB5FBB2975EC2400D58B0A /* Sources */,
+				AAAB5FBC2975EC2400D58B0A /* Frameworks */,
+				AAAB5FBD2975EC2400D58B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "COMIDA RAPIDA";
+			productName = "COMIDA RAPIDA";
+			productReference = AAAB5FBF2975EC2400D58B0A /* COMIDA RAPIDA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAAB5FD42975EC2800D58B0A /* COMIDA RAPIDATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAAB5FEC2975EC2800D58B0A /* Build configuration list for PBXNativeTarget "COMIDA RAPIDATests" */;
+			buildPhases = (
+				AAAB5FD12975EC2800D58B0A /* Sources */,
+				AAAB5FD22975EC2800D58B0A /* Frameworks */,
+				AAAB5FD32975EC2800D58B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAAB5FD72975EC2800D58B0A /* PBXTargetDependency */,
+			);
+			name = "COMIDA RAPIDATests";
+			productName = "COMIDA RAPIDATests";
+			productReference = AAAB5FD52975EC2800D58B0A /* COMIDA RAPIDATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAAB5FDE2975EC2800D58B0A /* COMIDA RAPIDAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAAB5FEF2975EC2800D58B0A /* Build configuration list for PBXNativeTarget "COMIDA RAPIDAUITests" */;
+			buildPhases = (
+				AAAB5FDB2975EC2800D58B0A /* Sources */,
+				AAAB5FDC2975EC2800D58B0A /* Frameworks */,
+				AAAB5FDD2975EC2800D58B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAAB5FE12975EC2800D58B0A /* PBXTargetDependency */,
+			);
+			name = "COMIDA RAPIDAUITests";
+			productName = "COMIDA RAPIDAUITests";
+			productReference = AAAB5FDF2975EC2800D58B0A /* COMIDA RAPIDAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAAB5FB72975EC2400D58B0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					AAAB5FBE2975EC2400D58B0A = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					AAAB5FD42975EC2800D58B0A = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AAAB5FBE2975EC2400D58B0A;
+					};
+					AAAB5FDE2975EC2800D58B0A = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AAAB5FBE2975EC2400D58B0A;
+					};
+				};
+			};
+			buildConfigurationList = AAAB5FBA2975EC2400D58B0A /* Build configuration list for PBXProject "COMIDA RAPIDA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAAB5FB62975EC2400D58B0A;
+			productRefGroup = AAAB5FC02975EC2400D58B0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAAB5FBE2975EC2400D58B0A /* COMIDA RAPIDA */,
+				AAAB5FD42975EC2800D58B0A /* COMIDA RAPIDATests */,
+				AAAB5FDE2975EC2800D58B0A /* COMIDA RAPIDAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAAB5FBD2975EC2400D58B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAAB5FCF2975EC2700D58B0A /* LaunchScreen.storyboard in Resources */,
+				AAAB5FCC2975EC2700D58B0A /* Assets.xcassets in Resources */,
+				AAAB5FCA2975EC2400D58B0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAAB5FD32975EC2800D58B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAAB5FDD2975EC2800D58B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAAB5FBB2975EC2400D58B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAAB5FC72975EC2400D58B0A /* ViewController.swift in Sources */,
+				AAAB5FC32975EC2400D58B0A /* AppDelegate.swift in Sources */,
+				AAAB5FC52975EC2400D58B0A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAAB5FD12975EC2800D58B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAAB5FDA2975EC2800D58B0A /* COMIDA_RAPIDATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAAB5FDB2975EC2800D58B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAAB5FE62975EC2800D58B0A /* COMIDA_RAPIDAUITestsLaunchTests.swift in Sources */,
+				AAAB5FE42975EC2800D58B0A /* COMIDA_RAPIDAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAAB5FD72975EC2800D58B0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAAB5FBE2975EC2400D58B0A /* COMIDA RAPIDA */;
+			targetProxy = AAAB5FD62975EC2800D58B0A /* PBXContainerItemProxy */;
+		};
+		AAAB5FE12975EC2800D58B0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAAB5FBE2975EC2400D58B0A /* COMIDA RAPIDA */;
+			targetProxy = AAAB5FE02975EC2800D58B0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAAB5FC82975EC2400D58B0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAAB5FC92975EC2400D58B0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAAB5FCD2975EC2700D58B0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAAB5FCE2975EC2700D58B0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAAB5FE72975EC2800D58B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAAB5FE82975EC2800D58B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAAB5FEA2975EC2800D58B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "COMIDA RAPIDA/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MA.COMIDA-RAPIDA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAAB5FEB2975EC2800D58B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "COMIDA RAPIDA/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MA.COMIDA-RAPIDA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAAB5FED2975EC2800D58B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MA.COMIDA-RAPIDATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COMIDA RAPIDA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/COMIDA RAPIDA";
+			};
+			name = Debug;
+		};
+		AAAB5FEE2975EC2800D58B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MA.COMIDA-RAPIDATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COMIDA RAPIDA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/COMIDA RAPIDA";
+			};
+			name = Release;
+		};
+		AAAB5FF02975EC2800D58B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MA.COMIDA-RAPIDAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "COMIDA RAPIDA";
+			};
+			name = Debug;
+		};
+		AAAB5FF12975EC2800D58B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MA.COMIDA-RAPIDAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "COMIDA RAPIDA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAAB5FBA2975EC2400D58B0A /* Build configuration list for PBXProject "COMIDA RAPIDA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAAB5FE72975EC2800D58B0A /* Debug */,
+				AAAB5FE82975EC2800D58B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAAB5FE92975EC2800D58B0A /* Build configuration list for PBXNativeTarget "COMIDA RAPIDA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAAB5FEA2975EC2800D58B0A /* Debug */,
+				AAAB5FEB2975EC2800D58B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAAB5FEC2975EC2800D58B0A /* Build configuration list for PBXNativeTarget "COMIDA RAPIDATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAAB5FED2975EC2800D58B0A /* Debug */,
+				AAAB5FEE2975EC2800D58B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAAB5FEF2975EC2800D58B0A /* Build configuration list for PBXNativeTarget "COMIDA RAPIDAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAAB5FF02975EC2800D58B0A /* Debug */,
+				AAAB5FF12975EC2800D58B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAAB5FB72975EC2400D58B0A /* Project object */;
+}
