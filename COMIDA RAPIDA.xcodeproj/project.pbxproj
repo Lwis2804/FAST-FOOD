@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA1CAB5E2978B5E100585134 /* WELCOMEBACKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1CAB5D2978B5E100585134 /* WELCOMEBACKViewController.swift */; };
+		AA7CC0CC29762D0B000343A5 /* WELCOMEMAINViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7CC0CB29762D0B000343A5 /* WELCOMEMAINViewController.swift */; };
 		AAAB5FC32975EC2400D58B0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB5FC22975EC2400D58B0A /* AppDelegate.swift */; };
 		AAAB5FC52975EC2400D58B0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB5FC42975EC2400D58B0A /* SceneDelegate.swift */; };
 		AAAB5FC72975EC2400D58B0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB5FC62975EC2400D58B0A /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA1CAB5D2978B5E100585134 /* WELCOMEBACKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WELCOMEBACKViewController.swift; sourceTree = "<group>"; };
+		AA7CC0CB29762D0B000343A5 /* WELCOMEMAINViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WELCOMEMAINViewController.swift; sourceTree = "<group>"; };
 		AAAB5FBF2975EC2400D58B0A /* COMIDA RAPIDA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COMIDA RAPIDA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAAB5FC22975EC2400D58B0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAAB5FC42975EC2400D58B0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 				AAAB5FC22975EC2400D58B0A /* AppDelegate.swift */,
 				AAAB5FC42975EC2400D58B0A /* SceneDelegate.swift */,
 				AAAB5FC62975EC2400D58B0A /* ViewController.swift */,
+				AA7CC0CB29762D0B000343A5 /* WELCOMEMAINViewController.swift */,
+				AA1CAB5D2978B5E100585134 /* WELCOMEBACKViewController.swift */,
 				AAAB5FC82975EC2400D58B0A /* Main.storyboard */,
 				AAAB5FCB2975EC2700D58B0A /* Assets.xcassets */,
 				AAAB5FCD2975EC2700D58B0A /* LaunchScreen.storyboard */,
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAAB5FC72975EC2400D58B0A /* ViewController.swift in Sources */,
+				AA1CAB5E2978B5E100585134 /* WELCOMEBACKViewController.swift in Sources */,
 				AAAB5FC32975EC2400D58B0A /* AppDelegate.swift in Sources */,
+				AA7CC0CC29762D0B000343A5 /* WELCOMEMAINViewController.swift in Sources */,
 				AAAB5FC52975EC2400D58B0A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,9 +459,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "MA.COMIDA-RAPIDA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -478,9 +489,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "MA.COMIDA-RAPIDA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
